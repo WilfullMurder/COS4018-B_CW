@@ -1,0 +1,11 @@
+/*********TODO LIST****************/
+
+/**********USER PROFILE PAGE******************
+    add in payment stuff to db --> hash card numbers, why don't we hash all info? --> look that up
+    add in option to add/edit payment methods
+
+    product reviews? --> that means sorting out the review stuff
+        edit/delete reviews
+        review product
+            only if they have bought it --> that means saving past purchases --> data-mining, targeted ads
+**********USER PROFILE PAGE END******************/

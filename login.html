@@ -1,0 +1,34 @@
+<!--html document for login form-->
+<!--including in authenticate.php lead to run-time errors (dunno if you would call it that but, the code triggers on page load, so it was dodgy at runtime)-->
+<!--if you can't understand whats going on here by reading the code you shouldn't be a tutor or invigilator-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Login</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+		<div class="login">
+			<h1>Login</h1>
+			<!--authenticate login-->
+			<form action="authenticate.php" method="post">
+				<label for="username">
+					<i class="fas fa-user"></i>
+				</label>
+				<input type="text" name="username" placeholder="Username" id="username" required>
+				<label for="password">
+					<i class="fas fa-lock"></i>
+				</label>
+				<input type="password" name="password" placeholder="Password" id="password" required>
+				<input type="submit" value="Login">
+			</form>
+			<form action="register.html" method="post">
+				<a>Not a member? Sign up today!</a>
+			<input type="submit" value="Register">
+			</form>
+        </div>
+    </body>
+</html>

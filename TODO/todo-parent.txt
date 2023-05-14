@@ -1,0 +1,151 @@
+/*********TODO LIST****************
+    1. prioritise todo's. p=10/10
+*********TODO LIST****************/
+
+/**********CONFIRN ORDER PAGE******************
+implement payment processing page prior to confirming ORDER
+**********CONFIRN ORDER PAGE END******************/
+
+/**********PAYMENT PROCESSING PAGE******************
+make page - like actual file
+    user signed in?
+        yes
+            fill form from db --> keeping the information on registration
+            user checkout
+                delivery address
+                    prefill from profile
+                billing address
+                    same as delivery?
+                        yes fill from form
+                        no user input
+                payment method
+                    secure payment
+                    paypal
+                    payment saved? --> more encryption --> separate db?
+                    not - save payment?
+        no
+            guest checkout
+                delivery address
+                    user input
+                billing address
+                    same as delivery?
+                        yes fill from form
+                        no user input
+                payment method
+                    secure payment
+                    paypal
+
+**********PAYMENT PROCESSING PAGE END******************/
+
+/**********PRODUCT PAGE******************
+add image carousel to product page for more images
+add zoom to product page image carousel
+add in a review container(tbd)
+        shows 4/5 most recent reviews
+        view all
+            load review page 
+
+**********PRODUCT PAGE END******************/
+
+/**********PRODUCTS PAGE******************
+
+add in sort by buttons(dropdown?) & methods
+    sort by
+        cost low
+        cost high
+        date oldest
+        date newest --> default via products header link
+        name a-z
+        name z-a
+        most relevant --> default for searches
+
+add in refine search buttons(dropdown?) & methods
+    show only
+        brand
+            brand -> sort by
+        tags
+            tags -> sort by
+        category
+            category -> sort by
+
+**********PRODUCTS PAGE END******************/
+
+/**********REGISTER******************
+    add in address stuff to db
+    move password into separate table? like a hash table? n_user_id:v_password
+**********REGISTER END******************/
+
+/**********USER PROFILE PAGE******************
+    add in payment stuff to db --> hash card numbers, why don't we hash all info? --> look that up
+    add in option to add/edit payment methods
+
+    product reviews? --> that means sorting out the review stuff
+        edit/delete reviews
+        review product
+            only if they have bought it --> that means saving past purchases --> data-mining, targeted ads
+**********USER PROFILE PAGE END******************/
+
+/**********PRODUCT REVIEW PAGE******************
+    linked in from the product page
+    make page(wireframing, etc)
+    sort by
+        score highest --> default
+            sort by next default
+        score lowest
+        date oldest
+        date newest --> next default
+**********PRODUCT REVIEW PAGE END******************/
+
+/**********USER INTERFACE (NAVBAR) END******************
+add in a search function to the NAVBAR
+    fixed bar?
+    button with sliding input bar?
+    where on NAVBAR?
+        left of user profile?
+        turn brand into dropdown for user/[logout]/cart,etc?
+            move logout from profile page into NAVBAR? --> I like this idea, dynamically allocate logout icon based on $_SESSION['loggedin]  
+   link search to products page
+    search db via tags
+        get all item ids with tags
+        search item db
+            get all item info
+                load onto screen
+                    sort by
+                        most relevant
+
+turn products link into dropdown?
+    category droprights>>categories a-z
+        Location:  products
+            refine by category
+    brands droprights>>brands a-z
+        Location:  products
+            refine by brand
+
+optional --> means adding more stuff to product info
+    room droprights>>brands a-z
+        Location:  products
+            refine by room
+    activity droprights>>brands a-z
+        Location:  products
+            refine by activity 
+    
+toasts?
+    move errors/success messages out into toasts?
+        call toasts via the ?=error/success methods?
+
+**********USER INTERFACE (NAVBAR) END******************/
+
+
+/**********ADMIN INTERFACE******************
+    SEE USER INTERFACE
+        essentially the same stuff for logout, etc.
+
+        moving the sidebar stuff into a dropwdown?
+    
+    more data analysis --> this means having more data!! SEE ALL ADDITIONS TO DB IN PARENT OR ALL TODO FILE(S) 
+        could link in some generated data and simulate an active site?
+
+ADMIN functionality
+Delete user
+Delete comment
+**********ADMIN INTERFACE END******************/

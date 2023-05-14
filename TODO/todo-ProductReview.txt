@@ -1,0 +1,12 @@
+/*********TODO LIST****************/
+
+/**********PRODUCT REVIEW PAGE******************
+    linked in from the product page
+    make page(wireframing, etc)
+    sort by
+        score highest --> default
+            sort by next default
+        score lowest
+        date oldest
+        date newest --> next default
+**********PRODUCT REVIEW PAGE END******************/

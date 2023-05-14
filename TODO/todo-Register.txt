@@ -1,0 +1,6 @@
+/*********TODO LIST****************/
+
+/**********REGISTER******************
+    add in address stuff to db
+    move password into separate table? like a hash table? n_user_id:v_password
+**********REGISTER END******************/

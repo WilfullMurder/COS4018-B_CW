@@ -1,0 +1,11 @@
+/*********TODO LIST****************/
+
+/**********PRODUCT PAGE******************
+add image carousel to product page for more images
+add zoom to product page image carousel
+add in a review container(tbd)
+        shows 4/5 most recent reviews
+        view all
+            load review page 
+
+**********PRODUCT PAGE END******************/

@@ -1,0 +1,32 @@
+/*********TODO LIST****************/
+
+/**********PAYMENT PROCESSING PAGE******************
+make page - like actual file, decide on format, etc
+    user signed in?
+        yes
+            fill form from db --> keeping the information on registration
+            user checkout
+                delivery address
+                    prefill from profile
+                billing address
+                    same as delivery?
+                        yes fill from form
+                        no user input
+                payment method
+                    secure payment
+                    paypal
+                    payment saved? --> more encryption --> separate db?
+                    not - save payment?
+        no
+            guest checkout
+                delivery address
+                    user input
+                billing address
+                    same as delivery?
+                        yes fill from form
+                        no user input
+                payment method
+                    secure payment
+                    paypal
+
+**********PAYMENT PROCESSING PAGE END******************/

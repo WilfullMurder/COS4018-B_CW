@@ -1,0 +1,40 @@
+/*********TODO LIST****************/
+
+/**********USER INTERFACE (NAVBAR) END******************
+add in a search function to the NAVBAR
+    fixed bar?
+    button with sliding input bar?
+    where on NAVBAR?
+        left of user profile?
+        turn brand into dropdown for user/[logout]/cart,etc?
+            move logout from profile page into NAVBAR? --> I like this idea, dynamically allocate logout icon based on $_SESSION['loggedin]  
+   link search to products page
+    search db via tags
+        get all item ids with tags
+        search item db
+            get all item info
+                load onto screen
+                    sort by
+                        most relevant
+
+turn products link into dropdown?
+    category droprights>>categories a-z
+        Location:  products
+            refine by category
+    brands droprights>>brands a-z
+        Location:  products
+            refine by brand
+
+optional --> means adding more stuff to product info
+    room droprights>>brands a-z
+        Location:  products
+            refine by room
+    activity droprights>>brands a-z
+        Location:  products
+            refine by activity 
+    
+toasts?
+    move errors/success messages out into toasts?
+        call toasts via the ?=error/success methods?
+
+**********USER INTERFACE (NAVBAR) END******************/

@@ -1,0 +1,8 @@
+/*********TODO LIST****************/
+
+/**********CONFIRN ORDER PAGE******************
+implement payment processing page prior to confirming ORDER
+add order and delivery information
+add in a way to continue shopping, etc.
+    maybe also profile? 
+**********CONFIRN ORDER PAGE END******************/

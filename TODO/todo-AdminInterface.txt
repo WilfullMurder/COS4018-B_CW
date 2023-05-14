@@ -1,0 +1,17 @@
+/*********TODO LIST****************/
+
+/**********ADMIN INTERFACE******************
+    SEE USER INTERFACE
+        essentially the same stuff for logout, etc.
+
+        moving the sidebar stuff into a dropwdown?
+    
+    more data analysis --> this means having more data!! SEE ALL ADDITIONS TO DB IN PARENT OR ALL TODO FILE(S) 
+        could link in some generated data and simulate an active site?
+
+ADMIN functionality
+Delete user
+Delete comment
+
+
+**********ADMIN INTERFACE END******************/

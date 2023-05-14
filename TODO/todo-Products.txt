@@ -1,0 +1,24 @@
+/*********TODO LIST****************/
+
+/**********PRODUCTS PAGE******************
+
+add in sort by buttons(dropdown?) & methods
+    sort by
+        cost low
+        cost high
+        date oldest
+        date newest --> default via products header link
+        name a-z
+        name z-a
+        most relevant --> default for searches
+
+add in refine search buttons(dropdown?) & methods
+    show only
+        brand
+            brand -> sort by
+        tags
+            tags -> sort by
+        category
+            category -> sort by
+
+**********PRODUCTS PAGE END******************/
